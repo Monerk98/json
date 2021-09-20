@@ -1,0 +1,35 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /json",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monerk98/json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monerk98/json/issues"
+  },
+  "homepage": "https://Monerk98.github.io/json",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
+    "normalize": "^0.3.1",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "throttle": "^1.0.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
